@@ -69,11 +69,7 @@ Headers:
 
 Run tests from Xcode (`Product > Test`) or with:
 
-```bash
-xcodebuild test -project "MoneyBaseA.xcodeproj" -scheme "MoneyBaseA" -destination "platform=iOS Simulator,name=iPhone 16"
-```
 
 ## Notes
 
 - The app currently contains a hardcoded RapidAPI key for demo purposes.
-- For production, move secrets to secure configuration (xcconfig, CI secrets, or runtime injection).
